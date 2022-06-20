@@ -47,4 +47,11 @@ This means RFU was unable to find the internal variable responsible for uncappin
 
 9. How do I uninstall Roblox FPS Unlocker?
 RFU does not install itself anywhere. It can be deleted by simply exiting the program if it is open (tray icon->Exit) and deleting rbxfpsunlocker.exe.
+# Disclaimer
+Around June 21st, 2018 I received reports that Roblox was handing out bans to players using this tool. Roblox most likely assumes that rbxfpsunlocker.dll is an exploit or a cheat. I fixed this issue in release 1.6 and can confirm injecting rbxfpsunlocker is now "invisible" to Roblox. HOWEVER, this won't stop Roblox from releasing a new detection in the future. Please use this tool at your own risk and keep in touch with this repository for updates.
 
+roblox this isn't an exploit no bans please :(
+
+EDIT: Version 4.0 of Roblox FPS Unlocker further reduces the risk of bans or warns (one could argue the chances are now 0) as DLL injection is no longer used. See the changelog for more information.
+
+EDIT (August 11, 2019): At the engineering panel on day 1 of RDC 2019, Adam Miller, VP of Engineering & Technology at Roblox, made a personal guarantee that anyone using Roblox FPS Unlocker will not be banned from Roblox. This was in response to the question "Why does Roblox have a FPS cap and why is it against the rules to change that cap?" to which Arseny Kapoulkine (zeuxcg) also revealed that Roblox will be adding support for "higher refresh rate monitors" potentially by next year. See the video here!
