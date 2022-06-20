@@ -1,7 +1,7 @@
 # Usage
-1. Download the latest release from https://github.com/axstian/rbxfpsunlocker/releases
-2. Extract rbxfpsunlocker-x64.zip into a folder
-3. Run rbxfpsunlocker.exe before or after starting Roblox
+1. Download the latest release from https://github.com/axstian/multijoiner/releases
+2. Extract multijoiner-x64.zip into a folder
+3. Run multijoiner.exe before or after starting Roblox
 4. Enjoy those beautiful frames 👌
 # Submitting An Issue
 NOTICE: Issues are currently closed due to spam and the number of non-issues or low quality submissions. They will be reopened once I have the time and capacity to moderate them. Sorry!
@@ -28,30 +28,16 @@ Press Shift+F5 in-game to view your FPS. In Roblox Studio, go to View->Stats->Su
 3. How do I resolve choppiness and input lag at high framerates?
 Try entering fullscreen using Alt+Enter.
 
-4. I used this unlocker and my framerate is the same or below 60. Why?
-I say with great emphasis, as this seems to be a common misconception, that Roblox FPS Unlocker is an FPS unlocker and not a booster. It will not boost Roblox's performance in any way and only removes Roblox's 60 FPS limit. To take advantage of RFU, a computer powerful enough to run Roblox at more than 60 FPS is required.
+4. I used this program and my framerate is below 60. Why?
+To take advantage of RFU, a computer powerful enough to run Roblox at more than 60 FPS is required.
 
 This being said, if you know your computer is powerful enough but still aren't seeing higher framerates with the unlocker, feel free to submit an issue.
 
 5. Can I set a custom framerate cap?
 You can create your own list of FPS cap values by editing the FPSCapValues array inside the settings file located in the same folder as rbxfpsunlocker.exe.
 
-6. Does this work for Mac?
-Yes. Roblox FPS Unlocker was written for all the platforms including Mac. those more experienced and with Mac hardware are free to port this project to Mac!
-
-7. Why do I get a "Failed to connect to Github" error?
+6. Why do I get a "Failed to connect to Github" error?
 This error means Roblox FPS Unlocker could not connect to the Internet to check for updates. This may be due to your anti-virus, computer firewall, network firewall, or etc. blocking the request. The error can be safely ignored by pressing "Ok".
 
-8. Why do I get a "Variable scan failed" error?
-This means RFU was unable to find the internal variable responsible for uncapping Roblox's framerate. This might happen if another program has already edited the value (e.g. an exploit). Please verify that your framerate is at a stable ~60.0 FPS (Shift+F5) before using the unlocker. If it is and the error still occurs, please submit an issue.
-
-9. How do I uninstall Roblox FPS Unlocker?
-RFU does not install itself anywhere. It can be deleted by simply exiting the program if it is open (tray icon->Exit) and deleting rbxfpsunlocker.exe.
-# Disclaimer
-Around June 21st, 2018 I received reports that Roblox was handing out bans to players using this tool. Roblox most likely assumes that rbxfpsunlocker.dll is an exploit or a cheat. I fixed this issue in release 1.6 and can confirm injecting rbxfpsunlocker is now "invisible" to Roblox. HOWEVER, this won't stop Roblox from releasing a new detection in the future. Please use this tool at your own risk and keep in touch with this repository for updates.
-
-roblox this isn't an exploit no bans please :(
-
-EDIT: Version 4.0 of Roblox FPS Unlocker further reduces the risk of bans or warns (one could argue the chances are now 0) as DLL injection is no longer used. See the changelog for more information.
-
-EDIT (August 11, 2019): At the engineering panel on day 1 of RDC 2019, Adam Miller, VP of Engineering & Technology at Roblox, made a personal guarantee that anyone using Roblox FPS Unlocker will not be banned from Roblox. This was in response to the question "Why does Roblox have a FPS cap and why is it against the rules to change that cap?" to which Arseny Kapoulkine (zeuxcg) also revealed that Roblox will be adding support for "higher refresh rate monitors" potentially by next year.
+7. How do I uninstall Roblox FPS Unlocker?
+RFU does not install itself anywhere. It can be deleted by simply exiting the program if it is open (tray icon->Exit) and deleting multijoiner.exe.
